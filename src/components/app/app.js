@@ -22,7 +22,6 @@ export default class App extends Component {
     }
 
     componentDidCatch() {
-        console.log('error');
         this.setState({
             error: true
         });
